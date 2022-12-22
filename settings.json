@@ -1,0 +1,347 @@
+{
+  //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  // "C_Cpp.updateChannel": "Insiders",
+  //"terminal.integrated.shell.windows": "C:\\Archivos de programa\\PowerShell\\7\\pwsh.exe", 21/12/2022
+
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\WindowsPowerShell\\v7.0\\powershell.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorCustomizations": {
+    // "[Flatland Monokai]": {
+
+    //status y menu
+    "titleBar.activeForeground": "#efb3b3",
+    "titleBar.activeBackground": "#121212",
+    "menu.background": "#282626",
+    "menu.selectionBackground": "#e20040",
+    "statusBar.background": "#1a1a1a",
+    "statusBar.noFolderBackground": "#121212",
+    "statusBar.debuggingBackground": "#282626",
+    "statusBar.debuggingForeground": "#efb3b3",
+    "statusBar.foreground": "#fccccc",
+    "statusBar.debuggingBorder": "#282626",
+    "statusBar.border": "#282626",
+    "statusBarItem.hoverBackground": "#282626",
+    "statusBarItem.prominentBackground": "#282626",
+    "statusBarItem.prominentHoverBackground": "#282626",
+    "statusBarItem.remoteBackground": "#282626",
+    "statusBarItem.remoteForeground": "#efb3b3",
+
+    //menu y barra de herramientas
+    "menubar.selectionBackground": "#282626",
+    "menubar.selectionForeground": "#efb3b3",
+    "menubar.selectionBorder": "#282626",
+
+    //activity
+    "activityBarBadge.background": "#232222",
+    "activityBarBadge.foreground": "#ff2323",
+    "activityBar.border": "#000000",
+    "activityBar.background": "#0e0e0e",
+
+    //tab y header
+    "editorGroupHeader.border": "#000000D0",
+    "editorGroupHeader.tabsBorder": "#000000",
+    "editorGroupHeader.tabsBackground": "#0b0b0b",
+    "tab.activeBackground": "#202020",
+    "tab.activeForeground": "#f9c5c5",
+    "tab.activeBorder": "#e20040",
+    "tab.inactiveBackground": "#0d0d0d", //barra de tabs
+    "tab.inactiveForeground": "#b7b7b7",
+    "tab.unfocusedActiveForeground": "#ffb7b7",
+    "tab.unfocusedActiveBorder": "#ff6f6f",
+    "tab.unfocusedInactiveForeground": "#b7b7b7",
+    "tab.hoverBackground": "#202020",
+    "tab.hoverForeground": "#f9c5c5",
+    "tab.hoverBorder": "#fcdada",
+    "tab.activeModifiedBorder": "#ff0000",
+    "tab.border": "#333333",
+    "tab.unfocusedActiveBorderTop": "#ff6f6f",
+    "tab.unfocusedHoverBackground": "#202020",
+    "tab.unfocusedHoverBorder": "#fcdada",
+    "tab.unfocusedHoverForeground": "#f9c5c5",
+    "tab.unfocusedInactiveBackground": "#0d0d0d",
+    "tab.unfocusedInactiveBorderTop": "#000000",
+    "tab.unfocusedInactiveModifiedBorder": "#e20040",
+    "tab.unfocusedActiveModifiedBorder": "#e20040",
+    "tab.activeBorderTop": "#e20040",
+    "tab.inactiveBorderTop": "#000000",
+    "tab.inactiveModifiedBorder": "#ff0000",
+
+    //editor
+    "editor.selectionForeground": "#f9c5c5",
+    "editor.selectionBackground": "#202020",
+    "editor.inactiveSelectionBackground": "#202020",
+
+    //sidebar
+    "sideBar.background": "#131313",
+
+    //selection
+    "editor.lineHighlightBackground": "#4026269a",
+    "editor.lineHighlightBorder": "#1a1a1a",
+    "editor.rangeHighlightBackground": "#545353",
+    "editor.rangeHighlightBorder": "#2e2e2e",
+
+    //editor y lineas
+    "editorGutter.background": "#1b1a1a",
+    "editorLineNumber.foreground": "#444444", //lineas
+    "editorLineNumber.activeForeground": "#e20040",
+    //TERMINAL
+    "panel.background": "#282626",
+    "panel.border": "#00000060",
+    "panelTitle.activeForeground": "#cf9caa",
+    "panelTitle.inactiveForeground": "#717070",
+
+    //
+    "terminal.background": "#1D2021",
+    "terminal.foreground": "#A89984",
+    "terminalCursor.background": "#A89984",
+    "terminalCursor.foreground": "#A89984",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlue": "#0D6678",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#95C085",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B",
+    //endTerminal
+
+    //scrollbar
+    "scrollbar.shadow": "#a4a4a42e",
+    "scrollbarSlider.activeBackground": "#ff6f6f",
+    //terminal size
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.letterSpacing": 0.5,
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontWeight": "light",
+    "terminal.integrated.fontWeightBold": "light",
+    //scroll size
+    "editor.scrollbar.verticalScrollbarSize": 10,
+    "editor.scrollbar.horizontalScrollbarSize": 10,
+    "editor.scrollbar.verticalSliderSize": 10,
+    "editor.scrollbar.horizontalSliderSize": 10
+  },
+  //   },
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "editor.suggestSelection": "first",
+  "files.insertFinalNewline": true, //modifique esto para que no se agregue un salto de linea al final de un archivo
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "kite.showWelcomeNotificationOnStartup": false,
+  "settings.cycle": [
+    {
+      "id": "lineNumbers",
+      "values": [
+        {
+          "editor.lineNumbers": "off", //cambie esto
+          "editor.folding": false,
+          "editor.glyphMargin": false
+        },
+        {
+          "editor.lineNumbers": "on",
+          "editor.folding": true,
+          "editor.glyphMargin": true
+        }
+      ]
+    }
+  ],
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "editor.cursorStyle": "line",
+  "editor.insertSpaces": true,
+  "editor.lineNumbers": "on",
+  "editor.autoIndent": "brackets",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "on",
+  "vsicons.dontShowNewVersionMessage": true,
+  "tabnine.experimentalAutoImports": true,
+  "terminal.integrated.gpuAcceleration": "off",
+  "files.autoSave": "afterDelay",
+  "redhat.telemetry.enabled": true,
+  "vs-kubernetes": {
+    "vscode-kubernetes.kubectl-path.linux": "/home/habuno_0fj/.vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.minikube-path.linux": "/home/habuno_0fj/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vscode-kubernetes.helm-path.linux": "/home/habuno_0fj/.vs-kubernetes/tools/helm/linux-amd64/helm",
+    "vscode-kubernetes.minikube-path.windows": "C:\\Users\\el_jo\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+    "vscode-kubernetes.helm-path.windows": "C:\\Users\\el_jo\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+    "vscode-kubernetes.kubectl-path.windows": "C:\\Users\\el_jo\\.vs-kubernetes\\tools\\kubectl\\kubectl.exe"
+  },
+
+  "editor.formatOnType": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "workbench.productIconTheme": "icons-carbon",
+  "[css]": {
+    "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+  },
+  //change width of line numbers
+  "editor.lineDecorationsWidth": 0,
+  "editor.folding": true,
+  "editor.glyphMargin": true,
+  "editor.fontLigatures": true,
+
+  //font
+  "editor.fontFamily": "'CaskaydiaCove NF', monospace, 'Fira Code', 'JetBrains Mono', 'Droid Sans Mono', 'Droid Sans Fallback'",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 19, //modifique esto
+
+  "editor.inlineSuggest.enabled": true,
+  "git.autofetch": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": true,
+    "csharp": true,
+    "html": false,
+    "css": false,
+    "javascript": true,
+    "python": true,
+    "java": true,
+    "cpp": false
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
+  },
+  "editor.cursorBlinking": "expand",
+  "scm.inputFontSize": 14,
+  "debug.console.fontSize": 14,
+  "markdown.preview.fontSize": 14,
+  "editor.linkedEditing": true,
+  // "terminal.integrated.fontFamily": "CaskaydiaCove NF",
+
+  "liveServer.settings.donotShowInfoMsg": true,
+  "python.defaultInterpreterPath": "C:\\Users\\el_jo\\AppData\\Local\\Microsoft\\WindowsApps\\python3.9.exe",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorWidth": 2,
+
+  //"terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "editor.renderWhitespace": "none",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "rapidapi.terminalLink.enabled": true,
+  //"code-runner.runInTerminal": true,
+  //"code-runner.showExecutionMessage": false,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "php": "php",
+    "python": "python -u",
+    "perl": "perl",
+    "perl6": "perl6",
+    "ruby": "ruby",
+    "go": "go run",
+    "lua": "lua",
+    "groovy": "groovy",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "bat": "cmd /c",
+    "shellscript": "bash",
+    "fsharp": "fsi",
+    "csharp": "cd $dir && dotnet run $fileName",
+    "vbscript": "cscript //Nologo",
+    "typescript": "ts-node",
+    "coffeescript": "coffee",
+    "scala": "scala",
+    "swift": "swift",
+    "julia": "julia",
+    "crystal": "crystal",
+    "ocaml": "ocaml",
+    "r": "Rscript",
+    "applescript": "osascript",
+    "clojure": "lein exec",
+    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "racket": "racket",
+    "scheme": "csi -script",
+    "ahk": "autohotkey",
+    "autoit": "autoit3",
+    "dart": "dart",
+    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    "haskell": "runhaskell",
+    "nim": "nim compile --verbosity:0 --hints:off --run",
+    "lisp": "sbcl --script",
+    "kit": "kitc --run",
+    "v": "v run",
+    "sass": "sass --style expanded",
+    "scss": "scss --style expanded",
+    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+    "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "sml": "cd $dir && sml $fileName"
+  },
+  "notebook.lineNumbers": "off",
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.tabSize": 3,
+
+  //linters: css
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "stylelint.enable": true,
+  //linters: JavaScript
+  "javascript.validate.enable": false,
+  "eslint.validate": ["JavaScript"],
+  "eslint.enable": true,
+  //linters: css + js
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "editor.formatOnSave": true,
+  "window.menuBarVisibility": "compact",
+  "window.zoomLevel": 2,
+  "editor.minimap.enabled": false
+}
